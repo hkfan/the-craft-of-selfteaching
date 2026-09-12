@@ -151,6 +151,7 @@ I don't know this before
 刻意思考，就是所谓的琢磨。
 
 这东西能用在哪儿呢？
+What exactly can you do with .... ?
 
 时时刻刻琢磨 “这东西能用在哪儿呢？”
 
@@ -164,3 +165,59 @@ Could have
 Won't have
 
 # 战胜难点
+
+所有的难点，事实上都可以被拆解成更小的单元，而后在逐一突破的时候，就没那么难了。
+不混时间，刻意思考，以及刻意练习 - 天下无难事，只怕有心人
+可惜，这偏偏是绝大多数人的习惯，学什么都一样，容易的部分糊弄糊弄，困难的部分直接回避…… 其实，所有焦虑，都是这样在许多年前被埋下
+小学的时候爱上了 “奶嘴”（有人带着阅读），而后一生没有奶嘴就吃不下任何东西。
+开始 “自学” 的活动，本质上来看，和断奶其实是一回事。
+有自学能力的人，不怕枯燥
+人生本无意义，有意义的人生都是自己活出来的一样，有意义的知识都是自己用出来的 
+对不用它的人，用不上它的人来说，只能也只剩下无法容忍的枯燥。
+很多道理过去你都知道是对的，只不过因为没有遇到过生动的例子 —— 主要是没遇到过能让自己感到生动的例子 —— 于是你就一直没有重视起来
+
+# 面向对象编程 OOP
+必要的特征 - 叫做对象的属性（Attributes）
+必要的行为 - 叫做对象的方法 (Method)
+
+Objects is all kinds of Class and Instances
+
+# 类 —— PYTHON 的实现
+变量名前面加上一个以上下划线（Underscore）_ 的话，那么该变量是 “私有变量”（Private Variables），不能被外部引用。而按照 Python 的惯例，我们会使用两个下划线起始，去命名私有变量，如：__life_span。
+
+@property to attribute a method to become a property
+@population.setter
+
+# 函数工具
+DIG（Decorator，Iterator，Generator）
+
+Interator has these 2 method
+__iter__(self):
+__next__(self):
+
+- yield 这个语句。它和 return 最明显的不同在于，在它之后的语句依然会被执行 —— 而 return 之后的语句就被忽略了。
+() - generator
+[] - list
+{} - set
+
+Python 提供了一个针对函数的操作符 @
+
+@a_decorator
+def a_func():
+
+is the same as
+
+def a_func():
+    ...
+a_func = a_decorator(a_func)
+Decorator 最常用的场景是什么呢？最常用的场景就是用来改变其它函数的行为。
+装饰器的执行顺序是 “自下而上” —— 其实是 “由里到外” 更为准确。体会一下
+*args 接收并处理所有传递进来的位置参数 - all parameters
+**kwargs 接收并处理所有传递进来的关键字参数。 - all keywords
+
+装饰器一定要学会 —— 因为很多人就是不会。
+
+# 正则表达式 Regular Expression
+
+
+
