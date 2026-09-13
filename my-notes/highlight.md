@@ -219,5 +219,26 @@ Decorator 最常用的场景是什么呢？最常用的场景就是用来改变�
 
 # 正则表达式 Regular Expression
 
+pattern, match, capture, replace(ment)……
 
+Using MS Visual Code can test the regular expression.
+You may also use regex101.com to test.
 
+Nativefier is about to change a web app to a native Mac Desktop App.
+
+regex use r'...' instead of '...' when defining
+
+Order of prcedance
+Escaping Symbol
+Grouping and Capturing
+Quantifier
+Sequence and Anchor
+Alternation
+Atoms - 集合原子还是原子 [] , small letter is usually the positive case while the capital letter is the negative case
+
+er <- 2 atoms , e followed by r
+[er] <- 1 atoms , e or r
+(er) <-one atom , er
+
+| is not an alternative inside []
+() is not a capture inside []. It is a ()
