@@ -137,20 +137,28 @@ epub 格式
 My experience of self learning is learning Changjie Chinese Input method just by reading the book I bought from Golden Center in Hong Kong.
 
 # 为什么从函数开始？
-第一部分，主要在于启动读者在编程领域中的 “阅读能力”
-第二部分，才开始逐步启动读者在编程领域中的 “写作能力”。
-要习惯，归纳、总结、整理的工作
+* 第一部分，主要在于启动读者在编程领域中的 “阅读能力”
+* 第二部分，才开始逐步启动读者在编程领域中的 “写作能力”。
+* 要习惯，归纳、总结、整理的工作
 
-当我们需要解决的问题，可以被逐步拆分成很多越来越小的模块，然后每个小模块还都能用同一种算法处理的时候，用递归函数最简洁有效。
+歸納、總結、整理
+歸納、總結、整理
+歸納、總結、整理
+Generalize
+Summerize
+Organize
 
+* 当我们需要解决的问题，可以被逐步拆分成很多越来越小的模块，然后每个小模块还都能用同一种算法处理的时候，用递归函数最简洁有效。
+
+```python
 def teach_yourself(anything):
     while not create():
         learn()
         practice()
     return teach_yourself(another)
 teach_yourself(coding)
-
-在函数定义内部，我们可以加上 Docstring
+```
+* 在函数定义内部，我们可以加上 Docstring
 
 # 保存到文件的函数 - 模块
 
@@ -160,38 +168,34 @@ I don't know this before
 
 # 刻意思考
 
-刻意思考，就是所谓的琢磨。
+* 刻意思考，就是所谓的琢磨。
+* 这东西能用在哪儿呢？
+* What exactly can you do with .... ?
+* 时时刻刻琢磨 “这东西能用在哪儿呢？”
+* 找活干，是应用所学的最有效方式，有活干，所以就有问题需要解决，所以就有机会反复攻关，在这个过程中，以用带练……
+* 这东西还能用在哪儿呢？
 
-这东西能用在哪儿呢？
-What exactly can you do with .... ?
-
-时时刻刻琢磨 “这东西能用在哪儿呢？”
-
-找活干，是应用所学的最有效方式，有活干，所以就有问题需要解决，所以就有机会反复攻关，在这个过程中，以用带练……
-
-这东西还能用在哪儿呢？
-
-Must have
-Should have
-Could have
-Won't have
+* Review the things and see if it it 
+    * Must have
+    * Should have
+    * Could have
+    * Won't have
 
 # 战胜难点
 
-所有的难点，事实上都可以被拆解成更小的单元，而后在逐一突破的时候，就没那么难了。
-不混时间，刻意思考，以及刻意练习 - 天下无难事，只怕有心人
-可惜，这偏偏是绝大多数人的习惯，学什么都一样，容易的部分糊弄糊弄，困难的部分直接回避…… 其实，所有焦虑，都是这样在许多年前被埋下
-小学的时候爱上了 “奶嘴”（有人带着阅读），而后一生没有奶嘴就吃不下任何东西。
-开始 “自学” 的活动，本质上来看，和断奶其实是一回事。
+* 所有的难点，事实上都可以被拆解成更小的单元，而后在逐一突破的时候，就没那么难了。 
+* 不混时间，刻意思考，以及刻意练习 - 天下无难事，只怕有心人
+* 可惜，这偏偏是绝大多数人的习惯，学什么都一样，容易的部分糊弄糊弄，困难的部分直接回避…… 其实，所有焦虑，都是这样在许多年前被埋下
+* 小学的时候爱上了 “奶嘴”（有人带着阅读），而后一生没有奶嘴就吃不下任何东西。
+* 开始 “自学” 的活动，本质上来看，和断奶其实是一回事。
 有自学能力的人，不怕枯燥
-人生本无意义，有意义的人生都是自己活出来的一样，有意义的知识都是自己用出来的 
-对不用它的人，用不上它的人来说，只能也只剩下无法容忍的枯燥。
-很多道理过去你都知道是对的，只不过因为没有遇到过生动的例子 —— 主要是没遇到过能让自己感到生动的例子 —— 于是你就一直没有重视起来
+* 人生本无意义，有意义的人生都是自己活出来的一样，**有意义的知识都是自己用出来的** 
+* 对不用它的人，用不上它的人来说，只能也只剩下无法容忍的枯燥。
+* 很多道理过去你都知道是对的，只不过因为没有遇到过生动的例子 —— **主要是没遇到过能让自己感到生动的例子** —— 于是你就一直没有重视起来
 
 # 面向对象编程 OOP
 必要的特征 - 叫做对象的属性（Attributes）
 必要的行为 - 叫做对象的方法 (Method)
-
 Objects is all kinds of Class and Instances
 
 # 类 —— PYTHON 的实现
@@ -201,7 +205,7 @@ Objects is all kinds of Class and Instances
 @population.setter
 
 # 函数工具
-DIG（Decorator，Iterator，Generator）
+* DIG（Decorator，Iterator，Generator）
 
 Interator has these 2 method
 __iter__(self):
@@ -212,7 +216,7 @@ __next__(self):
 [] - list
 {} - set
 
-Python 提供了一个针对函数的操作符 @
+* Python 提供了一个针对函数的操作符 @
 
 @a_decorator
 def a_func():
@@ -227,7 +231,7 @@ Decorator 最常用的场景是什么呢？最常用的场景就是用来改变�
 *args 接收并处理所有传递进来的位置参数 - all parameters
 **kwargs 接收并处理所有传递进来的关键字参数。 - all keywords
 
-装饰器一定要学会 —— 因为很多人就是不会。
+* 装饰器一定要学会 —— 因为很多人就是不会。
 
 # 正则表达式 Regular Expression
 
@@ -254,3 +258,29 @@ er <- 2 atoms , e followed by r
 
 | is not an alternative inside []
 () is not a capture inside []. It is a ()
+
+(?=pattern) 正向肯定預查
+(?!pattern) 正向否定
+(?<=pattern) 反向肯定
+(?<!pattern) 反向否定
+Flag
+
+Need to go back and check it usage
+
+# BNF and EBNF
+
+让读者从认知自学能力开始，通过自学编程作为第一个实践，逐步完整掌握自学能力，进而在随后漫长的人生中，需要什么就去学什么，
+
+有能力独立地去全面研读官方文档
+
+“上下文无关文法”（Context-free Grammar）
+
+“人类有这个神奇的本领，擅长使用自己并不懂的东西……”
+
+glob，是 Global 的缩写。你可以把它理解为 “超级简化版正则表达式”
+
+在自学这件事上，失败者的死法看起来千变万化，但其实都是一样的…… 只不过是因为怕麻烦或者基础知识不够而不去读最重要的文档。
+
+比如，学英语的时候死活不读语法书。词性标记，v., n., adj., adv., prep.... 不就是相当于地图上的图例吗？
+
+# 拆解
