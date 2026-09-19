@@ -585,4 +585,133 @@ src="https://www.youtube.com/embed/sJG-rXBbmCc?"
 
 刻意思考：这东西我还能用在哪儿呢？
 
+而是从另外一个看起来完全不相关的领域里习得后琢磨到的……
+
+我们并不是不要老师这个角色了，准确地讲，我们只不过是不再需要 “传统意义上的老师” 了而已。
+首先，我们把自己当作老师 
+
+写那内容的人，实际上就是老师。
+写书的人群中，牛人比例相对较高，这是事实 —— 古今中外都一样。
+即便是相同的东西，你也可以找很多老师
+
+最后，你竟然还有最厉害的一个小招数：
+
+无论学会什么，都要进一步刻意思考：这东西我还能用在哪儿呢？
+
+从 “不得不把自己当作老师去教自己” 开始 —— 虽然起步是不得不，但这个 “不得不”，恰好是后来你变得更为强大的原因和起点…… 这就解释了为什么历史上有很多牛人的很多成就其实都是这样 “被迫” 获得的。
+
+你一定要想办法启动自学，否则你没有未来；
+你把自学当作一门手艺，长期反复磨练它；
+你懂得学、练、用、造各个阶段之间的不同，以及针对每个阶段的对应策略；
+面对 “过早引用” 过多的世界，你有你的应对方式；
+你会 “囫囵吞枣”，你会 “重复重复再重复”，你深刻理解 “读书百遍其义自见”；
+以后你最擅长的技能之一就是拆解拆解再拆解；
+你用你的拆解手艺把所有遇到的难点都拆解成能搞定的小任务；
+自学任何一门手艺之前你都不会去问 “有什么用”，而是清楚地知道，无论是什么只要学会了就只能也必然天天去用；
+你没有刚需幻觉，你也没有时间幻觉，你更没有困难幻觉，反正你就是相对更清醒；
+不管你新学什么手艺，你都知道只要假以时日你就肯定能做好，因为所有的手艺精湛，靠的只不过是充足的预算；
+你知道如何不浪费生命，因为只要不是在刻意练习、不是在刻意思考，那就是在 “混时间”；
+你总是在琢磨你能做个什么新作品；
+你刻意地使用你的作品作为有效社交工具，也用作品去过滤无效社交；
+你乐于分享，乐于阅读也更乐于写作 —— 因为这世界怎么帮助你的，你就想着要怎样回报；
+你把全面和完整当作最高衡量标准，也用这个标准去克制、应对自己的注意力漂移；
+你会不断自学新的手艺，因为你越来越理解单一技能的脆弱，越来越理解多项技能的综合威力；
+你越来越依赖互联网，它是你最喜欢的 “书”，而 Google 是你最好的朋友 —— 他总是能帮你找到更好的老师；
+偶尔，你会学会没人教、没人带、甚至没书可参考的手艺，别人都说你 “悟性” 高，可你自己清楚地知道那其实是怎么回事；
+你越来越明白，其实没什么 “秘密”，越简单、越朴素的道理越值得重视；
+你发现你用来思考的时间越来越多 —— 准确地讲，是 “琢磨”…… 只不过是因为你真会琢磨了 —— 你很清楚你应该花时间琢磨的是什么。
+
+我认为一个人的自学能力（当时还在用 “学习能力” 这个词）分为三个层次：
+学会有人手把手教授的技能
+学会书本上所教授的技能
+学会没有人能教授的技能
+
+若是你已为人父母，那就想办法用自己的行动影响下一代罢。然而，其实更为重要的是，无论什么时候，都要这么想：
+
+若是还有很长的未来，现在真不算晚……
+
+因为自学者是自发去学的，原动力在于自己。而不像其他人，是被动地学，原动力并非在于自己。
+“刻”，我们很认同，刻意地练习、刻意地思考，刻意地保持好奇心，刻意地去学习一些看起来与当前所掌握的手艺完全不相干的知识……
+
+# Others
+我用的 Stylus 定制 CSS（针对 github.com）是这样的：
+
+# 下一步干什么？
+Pythonbasics.org 做做练习：
+请移步 The Hitchhiker's Guide to Python
+如果你真有兴趣把这门手艺学精，不妨看看 Computer Science 专业的人都在学什么……
+
+下面这个链接值得认真阅读：
+
+http://matt.might.net/articles/what-cs-majors-should-know/
+https://github.com/kamranahmedse/developer-roadmap
+
+# VISUAL STUDIO CODE
+使用快捷键 ⇧⌘p 呼出 Command Palette，在其中输入 shell command，而后选中 Install 'code' command in PATH
+
+使用快捷键 ⇧⌘p 呼出 Command Palette，在其中输入 select interpreter，而后选中 Python: Select Interpreter。
+
+而后，在系统中已安装的若干个版本中选择你需要的那一个。MacOS 系统自带一个 Python 2.7，而我们安装的 Anaconda 为系统另外安装了一个 Python 3.7。
+安装扩展
+
+使用快捷键 ⇧⌘x 呼出扩展面板。安装 anaconda 扩展，它会连带装上 python 扩展：
+
+# GIT 简介
+https://git-scm.com/book/en/v2
+
+备份文件
+跟踪文件变化
+与他人协作共同操作文件
+
+upstream repository 保存在云端的仓库
+local repository 本地仓库
+staging area 缓存区
+working directory 工作区
+其中，local repository 和 staging area 这两个抽象层的数据，保存在 working directory 根目录下的一个隐藏目录 .git/ 下；需要使用 ls -a 才能看到。
+
+# JUPYTERLAB 的安装与配置
+建议都把 Anaconda 安装在本地用户目录内
+
+
+```
+conda update conda
+conda update anaconda
+conda install -c conda-forge nodejs
+conda install -c conda-forge jupyterlab # 这是用来升级 jupyter lab 到最新版的方法
+```
+
+```
+which python
+python --version
+which node
+node -v
+which jupyter
+jupyter lab --version
+jupyter notebook --version
+which pip
+pip --version
+```
+
+```
+cd ~
+jupyter lab
+```
+
+随后会有个浏览器打开，指向 http://localhost:8888/lab? —— 你就看到 Jupyter lab 的操作界面了。
+
+```
+jupyter lab
+jupyter lab --version
+conda install -c conda-forge jupyterlab # 这是用来升级 jupyter lab 到最新版的方法
+jupyter notebook list                   # 查看正在运行的 jupyter lab/notebook
+jupyter notebook stop                   # 停止 jupyter lab/notebook 服务
+```
+
+Use launchctl to control whether jupyter lab load when the system is started up.
+
+
+
+
+
+
 
