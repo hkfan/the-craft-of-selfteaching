@@ -226,7 +226,9 @@ is the same as
 def a_func():
     ...
 a_func = a_decorator(a_func)
-Decorator 最常用的场景是什么呢？最常用的场景就是用来改变其它函数的行为。
+
+* Decorator 最常用的场景就是用来改变其它函数的行为。
+
 装饰器的执行顺序是 “自下而上” —— 其实是 “由里到外” 更为准确。体会一下
 *args 接收并处理所有传递进来的位置参数 - all parameters
 **kwargs 接收并处理所有传递进来的关键字参数。 - all keywords
