@@ -194,12 +194,13 @@ I don't know this before
 * 很多道理过去你都知道是对的，只不过因为没有遇到过生动的例子 —— **主要是没遇到过能让自己感到生动的例子** —— 于是你就一直没有重视起来
 
 # 面向对象编程 OOP
-必要的特征 - 叫做对象的属性（Attributes）
-必要的行为 - 叫做对象的方法 (Method)
-Objects is all kinds of Class and Instances
+* 必要的特征 - 叫做对象的属性（Attributes）
+* 必要的行为 - 叫做对象的方法 (Method)
+* Objects is all kinds of Class and Instances
 
 # 类 —— PYTHON 的实现
-变量名前面加上一个以上下划线（Underscore）_ 的话，那么该变量是 “私有变量”（Private Variables），不能被外部引用。而按照 Python 的惯例，我们会使用两个下划线起始，去命名私有变量，如：__life_span。
+* 变量(Variables)名前面加上一个以上下划线（Underscore）_ 的话，那么该变量是 “私有变量”（Private Variables），不能被外部引用。
+* 而按照 Python 的惯例，我们会使用两个下划线起始，去命名私有变量，如：__life_span。
 
 @property to attribute a method to become a property
 @population.setter
@@ -218,16 +219,23 @@ __next__(self):
 
 * Python 提供了一个针对函数的操作符 @
 
+```python
 @a_decorator
 def a_func():
+```
 
 is the same as
 
+```python
 def a_func():
     ...
 a_func = a_decorator(a_func)
-Decorator 最常用的场景是什么呢？最常用的场景就是用来改变其它函数的行为。
-装饰器的执行顺序是 “自下而上” —— 其实是 “由里到外” 更为准确。体会一下
+```
+
+* Decorator 最常用的场景就是用来改变其它函数的行为。
+* 装饰器 (Decorator) 的执行顺序是 “自下而上” —— 其实是 “由里到外” 更为准确。体会一下
+
+* TBD : Add an Example
 *args 接收并处理所有传递进来的位置参数 - all parameters
 **kwargs 接收并处理所有传递进来的关键字参数。 - all keywords
 
@@ -235,26 +243,28 @@ Decorator 最常用的场景是什么呢？最常用的场景就是用来改变�
 
 # 正则表达式 Regular Expression
 
-pattern, match, capture, replace(ment)……
+* pattern, match, capture, replace(ment)……
+* Using MS Visual Code can test the regular expression.
+* You may also use regex101.com to test.
 
-Using MS Visual Code can test the regular expression.
-You may also use regex101.com to test.
+* *Nativefier* is about to change a web app to a native Mac Desktop App.
 
-Nativefier is about to change a web app to a native Mac Desktop App.
+* regex use r'...' instead of '...' when defining
 
-regex use r'...' instead of '...' when defining
+* Order of prcedance
+- Escaping Symbol
+- Grouping and Capturing
+- Quantifier
+- Sequence and Anchor
+- Alternation
+- Atoms - 集合原子还是原子 [] , small letter is usually the positive case while the capital letter is the negative case
 
-Order of prcedance
-Escaping Symbol
-Grouping and Capturing
-Quantifier
-Sequence and Anchor
-Alternation
-Atoms - 集合原子还是原子 [] , small letter is usually the positive case while the capital letter is the negative case
-
+Example
+```
 er <- 2 atoms , e followed by r
 [er] <- 1 atoms , e or r
 (er) <-one atom , er
+```
 
 | is not an alternative inside []
 () is not a capture inside []. It is a ()
@@ -265,34 +275,23 @@ er <- 2 atoms , e followed by r
 (?<!pattern) 反向否定
 Flag
 
-Need to go back and check it usage
+* Need to go back and check it usage
 
 # BNF and EBNF
 
-让读者从认知自学能力开始，通过自学编程作为第一个实践，逐步完整掌握自学能力，进而在随后漫长的人生中，需要什么就去学什么，
-
-有能力独立地去全面研读官方文档
-
-“上下文无关文法”（Context-free Grammar）
-
-“人类有这个神奇的本领，擅长使用自己并不懂的东西……”
-
-glob，是 Global 的缩写。你可以把它理解为 “超级简化版正则表达式”
-
-在自学这件事上，失败者的死法看起来千变万化，但其实都是一样的…… 只不过是因为怕麻烦或者基础知识不够而不去读最重要的文档。
-
-比如，学英语的时候死活不读语法书。词性标记，v., n., adj., adv., prep.... 不就是相当于地图上的图例吗？
+* 让读者从认知自学能力开始，通过自学编程作为第一个实践，逐步完整掌握自学能力，进而在随后漫长的人生中，需要什么就去学什么，
+* 有能力独立地去全面研读官方文档
+* 上下文无关文法（Context-free Grammar）
+* “人类有这个神奇的本领，擅长使用自己并不懂的东西……”
+* glob，是 Global 的缩写。你可以把它理解为 “超级简化版正则表达式”
+* 在自学这件事上，失败者的死法看起来千变万化，但其实都是一样的…… 只不过是*因为怕麻烦*或者*基础知识不够而不去读最重要的文档*。
+* 比如，学英语的时候死活不读语法书。词性标记，v., n., adj., adv., prep.... 不就是相当于地图上的图例吗？
 
 # 拆解
-它也的确是自学能力中最重要的底层能力之一。
-横向拆解
+* 拆解是自学能力中最重要的底层能力之一。
 
-自学的一个重要技巧就是，
-
-把那些很难的任务无限拆分 —— 直至每个子任务都很小，小到都可操作为止。
-
-拆分的本领：
-
+* 横向拆解 - 把那些很难的任务无限拆分 —— 直至每个子任务都很小，小到都可操作为止。
+* 拆分的本领：
 先囫囵吞枣至少读一遍教程；
 给自己搭好测试的环境（或许在 Regex101.com 上，或许用一个编辑器，比如 VS Code）；
 先不管什么意思，找一些 Regex 自己试试；
